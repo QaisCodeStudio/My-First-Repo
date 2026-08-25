@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f6f9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card {
+  background: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  width: 320px;
+  overflow: hidden;
+  text-align: center;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  padding: 20px;
+}
+
+.card-header h1 {
+  font-size: 1.5rem;
+}
+
+.title {
+  font-size: 0.9rem;
+  opacity: 0.9;
+  margin-top: 4px;
+}
+
+.card-body {
+  padding: 20px;
+  color: #333333;
+}
+
+.card-body p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.skills span {
+  display: inline-block;
+  background-color: #e9ecef;
+  color: #495057;
+  padding: 5px 10px;
+  font-size: 0.8rem;
+  border-radius: 12px;
+  margin: 3px;
+}
